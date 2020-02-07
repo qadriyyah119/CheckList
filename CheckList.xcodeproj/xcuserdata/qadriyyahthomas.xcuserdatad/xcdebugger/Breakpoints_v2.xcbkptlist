@@ -14,10 +14,10 @@
             filePath = "CheckList/ChecklistViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "ChecklistViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -34,6 +34,84 @@
             endingLineNumber = "17"
             landmarkName = "TodoList"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DCAC8EC-62E8-47AD-AE86-AFB050DAD628"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckList/ChecklistViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ChecklistViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6DCAC8EC-62E8-47AD-AE86-AFB050DAD628 - 1b145cc4e53787e5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckList.ChecklistViewController.todoList.getter : CheckList.TodoList"
+                  moduleName = "CheckList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qadriyyahthomas/Documents/Documents%20-%20BrooklynAfro&apos;s%20MacBook%20Pro/iOS/RayWenderlich/CheckList/CheckList/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "6DCAC8EC-62E8-47AD-AE86-AFB050DAD628 - 2003635e27bb40d1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckList.ChecklistViewController.todoList.setter : CheckList.TodoList"
+                  moduleName = "CheckList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qadriyyahthomas/Documents/Documents%20-%20BrooklynAfro&apos;s%20MacBook%20Pro/iOS/RayWenderlich/CheckList/CheckList/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "6DCAC8EC-62E8-47AD-AE86-AFB050DAD628 - 2e87e2f5a0f85920"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckList.ChecklistViewController.todoList.modify : CheckList.TodoList"
+                  moduleName = "CheckList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qadriyyahthomas/Documents/Documents%20-%20BrooklynAfro&apos;s%20MacBook%20Pro/iOS/RayWenderlich/CheckList/CheckList/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "6DCAC8EC-62E8-47AD-AE86-AFB050DAD628 - 646018a465ad4fee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckList.ChecklistViewController.todoList.modify : CheckList.TodoList with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CheckList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/qadriyyahthomas/Documents/Documents%20-%20BrooklynAfro&apos;s%20MacBook%20Pro/iOS/RayWenderlich/CheckList/CheckList/ChecklistViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -10,19 +10,26 @@ import UIKit
 
 class ChecklistViewController: UITableViewController {
   
-  var todoList: TodoList
+  var todoList: TodoList // variable of type TodoList class. Has access to all properties in TodoList class located in ToDoList.swift
   
+  // function that's taking in an Int value-(index) and returning an optional Priority case from the enum created in the TodoList class-(ToDoList.swift)
+  // The rawValue is the index number starting from 0
   private func priorityForSectionIndex(_ index: Int) -> TodoList.Priority? {
     return TodoList.Priority(rawValue: index)
   }
   
+  // IBAction function when "+" button is pressed by user
   @IBAction func additem(_ sender: Any) {
-    
+    // the todoList variable is calling the todoList method from the ToDoList class
+    // that method is returning an array of checklist items, hence why we need to use .count
     let newRowIndex = todoList.todoList(for: .medium).count
-    _ = todoList.newTodo()
-    
+    _ = todoList.newTodo() // the newTodo method from the TodoList class is being called to append the new checklist item to the medium priority list and return the item
+    // IndexPath is taking the new checklist item that's been assigned to newRowIndex and the section ??? -> (why is it 0)
     let indexPath = IndexPath(row: newRowIndex, section: 0)
+    // indexPaths is taking the current indexPath from the line above
     let indexPaths = [indexPath]
+    // this method is called to insert the rows in the tableView at the location taken from the indexPaths array index from the
+    // line above.
     tableView.insertRows(at: indexPaths, with: .automatic)
   }
   
@@ -42,7 +49,7 @@ class ChecklistViewController: UITableViewController {
     }
   }
   
-  
+  // ???
   required init?(coder aDecoder: NSCoder) {
     
     todoList = TodoList()
